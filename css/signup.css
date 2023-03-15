@@ -1,0 +1,95 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #D6E4E5;
+
+}
+.container-box{
+    width: 400px;
+    height: 500px;
+    background: #fff;
+    color: #111;
+    margin:auto;
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.btn-box{
+    width:200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    
+}
+.btn-box button{
+    margin-top: 30px;
+    padding: 8px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.login{
+width:350px;
+background: #fff;
+display: block;
+margin:auto;
+margin-top: 80px;
+}
+.input-field{
+width:350px;
+margin-left: 3px;
+padding: 10px 8px;
+margin-bottom: 15px;
+}
+input{
+font-size: 17px;
+border: none;
+outline: none;
+border-bottom: 2px solid #111;
+}
+.check-box{
+margin-top:15px ;
+
+}
+.login span, .Sign-up span{
+font-size: 16px;
+color: #777;
+line-height: 5px;
+}
+.btn{
+display: block;
+margin: auto;
+margin-top: 30px;
+padding: 8px 55px;
+border-radius: 20px;
+cursor: pointer;
+outline: none;
+border: none;
+font-size: 16px;
+color: #fff;
+background:#497174;
+
+}
+.Sign-up{
+width:350px;
+background:#fff;
+display: block;
+margin:auto;
+margin-top: 80px;
+position: absolute;
+top:68px;
+left:400px;
+
+}
+

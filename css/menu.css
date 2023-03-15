@@ -1,0 +1,243 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+   body{
+    background:#D6E4E5;
+
+   } 
+    
+    /* MENU start */
+    .container{
+    background:#497174;
+    color: #fff;
+    width:100%;
+    overflow: hidden;
+    }
+    .heading{
+    width:60%;
+    margin: auto;
+    }
+    .heading h1{
+    width:10%;
+    margin:auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 38px;
+    }
+    .heading p{
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 30px;
+    }
+    /* menu container */
+    section{
+    width:100%;
+    background:#D6E4E5;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    }
+    .menu-cont{
+    width: 70%;
+    /* margin: auto; */
+    margin-top: 30px;
+    margin-left: 30px;
+    }
+
+
+    /* menu-filter css start */
+.menu-filter{
+    width: 70%;
+    margin: auto;
+    /* background-color: cadetblue; */
+    /* border: 2px solid #111; */
+    border-bottom: 1px solid #111;
+    
+}
+
+.menu-filter ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-filter ul li{
+    padding: 6px 10px;
+    background-color: #fff;
+    color: #111;
+    font-size: 20px;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+.menu-filter ul li.active{
+    background: #EB6440;
+    color:#fff;
+}
+
+    /* menu-filter css end */
+
+ /*menu card start*/   
+    .col-1{
+    width: 100%;
+    margin-top: 40px;
+    /* margin-right: 10px; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  
+    }
+
+    .box{
+    background: #fff;
+    display: flex;
+    justify-content: left;
+    width:45%;
+    padding: 20px;
+    margin-bottom: 20px;
+  
+    }
+    .hide{
+        display: none;
+    }
+    .box img{
+    height: 177px;
+    }
+    .desctiption{
+    padding-left: 20px;
+    }
+    .desctiption h1{
+    font-size: 28px;
+    font-weight: 300;
+    
+    padding-bottom: 10px;
+    }
+    .desctiption p{
+    padding-bottom:10px;
+    font-size: 18px;
+    
+    }
+    .desctiption h2{
+    padding-bottom:16px;
+    text-align: left;
+    
+    }
+    .desctiption button{
+    text-decoration: none;
+    background: rgba(193, 191, 191, 0.872);
+    color: #111;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    font-weight: 200;
+    }
+    .desctiption button:hover{
+        background: #EB6440;
+        color: #fff;
+    }  
+   /*Add ti cart*/ 
+   .cart-box{
+    width:25%;
+    height:600px;
+    /* border:2px solid #111; */
+    float: left;
+    margin-top: 30px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+   .cart-box h1{
+    text-align: center;
+    outline: none;
+    background: #497174;
+    color:#fff;
+    font-weight: 100;
+    font-size: 30px;
+   } 
+   .cart-box p{
+    font-size: 18px;
+    padding: 5px;
+    text-align: center;
+   }
+
+ul li{
+    list-style: none;
+}   
+ .item{
+    width:100%;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+    overflow: hidden;
+    background: #fff;
+    padding: 5px;
+    margin:3px 0;
+ }
+.del{
+    margin: 10px 0;
+    color:#fff;  
+    cursor: pointer;
+    background: red;
+    padding: 2px 5px;
+    font-size: 16px;
+
+ }
+.item img{
+    width:50px;
+    height: 40px;
+} 
+ .cart-text{
+    /* line-height: 20px; */
+    margin-top: 10px;
+    text-align: left;
+    font-weight: 100;
+    padding: 0 3px;
+    font-size: 20px;
+ }
+
+
+ .total-amt{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 5px;
+    border-top: 2px solid #111;
+    margin-top: 20px;
+    width:100%;
+  
+ }
+
+ .total-amt h2{
+    padding: 0 5px;
+    font-weight: 200;
+ }
+.btn{
+    background: #fff;
+    padding: 20px;
+    /* overflow: hidden; */
+
+}
+ #checkout {
+    width:100%;
+    /* display: block; */
+    
+    
+}
+.btn a{
+    background:#EB6440;
+    /* border: 2px solid #111; */
+    margin-left: 100px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    padding: 6px 30px;
+    border-radius:22px ;
+ }
