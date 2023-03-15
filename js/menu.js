@@ -1,70 +1,70 @@
 var menu_list=[
      {
         'id':0,
-        'src':"../img/p1.jpg",
+        'src':"img/p1.jpg",
         'name':"Pizza",
         'price': 150
 
      },
      {
         'id':1,
-        'src':"../img/p2.jfif",
+        'src':"img/p2.jfif",
         'name':"Chicken",
         'price': 250
 
      },
      {
         'id':2,
-        'src':"../img/p3.jpg",
+        'src':"img/p3.jpg",
         'name':"KFC Chicken",
         'price': 550
 
      },
      {
         'id':3,
-        'src':"../img/p4.jpg",
+        'src':"img/p4.jpg",
         'name':"momo",
         'price': 300
 
      },
      {
         'id':4,
-        'src':"../img/p5.webp",
+        'src':"img/p5.webp",
         'name':"wow! momo",
         'price': 150
 
      },
      {
         'id':5,
-        'src':"../img/p6.jpg",
+        'src':"img/p6.jpg",
         'name':"Noodles",
         'price': 350
 
      },
      {
         'id':6,
-        'src':"../img/p7.jfif",
+        'src':"img/p7.jfif",
         'name':"Burger",
         'price': 400
 
      },
      {
         'id':7,
-        'src':"../img/p9.jpg",
+        'src':"img/p9.jpg",
         'name':"Chicken Biryani",
         'price': 350
 
      },
      {
         'id':8,
-        'src':"../img/p10.webp",
+        'src':"img/p10.webp",
         'name':"mutton curry",
         'price': 650
 
      },
      {
         'id':9,
-        'src':"../img/p11.jfif",
+        'src':"img/p11.jfif",
         'name':"Fish fry",
         'price': 450
 
