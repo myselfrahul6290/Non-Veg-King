@@ -4,6 +4,7 @@
 }
 body{
     background:#D6E4E5;
+    overflow:hidden;
 }
 p{
     font-size: 18px;
